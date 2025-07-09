@@ -1,0 +1,29 @@
+name: git_env
+channels:
+  - conda-forge
+dependencies:
+  - python = 3.10
+  - jupyter
+  - pandas
+  #- keras
+  #- tensorflow
+  - pydot
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - plotly
+  - seaborn
+  - xgboost
+  - contextily
+  - openpyxl >= 3.1.2
+  - nltk
+  - gensim
+  - spacy
+  - wordcloud
+  - altair
+  - textblob
+  - pillow
+  - pip
+  - pip:
+    - HanTa
+    - germansentiment
